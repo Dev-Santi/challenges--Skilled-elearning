@@ -37,10 +37,6 @@ $bold: 700;
     background: linear-gradient(0deg, rgba(240,42,166,1) 0%, rgba(72,81,255,1) 100%);
 }
 
-@mixin isHover {
-    opacity: 0.5;
-}
-
 //text
 @mixin headingXL {
     font-weight: $extraBold;
@@ -90,4 +86,9 @@ $bold: 700;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+@mixin isHover {
+    opacity: 0.6;
 }
