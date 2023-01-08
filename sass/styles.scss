@@ -9,7 +9,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    /* outline: 1px solid black */
 }
 
 //all page background
@@ -332,7 +331,6 @@
             }
 
             p {
-                @include bodyM;
                 max-width: 445px;
             }
 
@@ -371,6 +369,23 @@
             "photoCard cryptoCard businessCard";
         column-gap: 30px;
         row-gap: 40px;
+
+        .introductionCard {
+            h2 {
+                @include headingM;
+                color: map-get($map: $palette, $key: 'f');
+            }
+        }
+
+        .card {
+            h3 {
+                @include headingS;
+            }
+
+            p {
+                @include bodyM;
+            }
+        }
 
         .getStartedBtn {
             &:hover {
