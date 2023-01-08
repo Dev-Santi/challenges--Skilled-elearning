@@ -1,0 +1,93 @@
+//fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+//font-family: 'Plus Jakarta Sans', sans-serif;
+
+//colours
+
+$palette: (
+    'a': #666ca3,
+    'b': #13183f,
+    'c': #83869a,
+    'd': #f74780,
+    'e': #ffa7c3,
+    'f': #ffffff,
+);
+
+//text
+$extraBold: 800;
+$medium: 500;
+$bold: 700;
+
+//mixins
+
+//colours
+
+@mixin background {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+
+@mixin gradientA {
+    background: #f02aa6;
+    background: linear-gradient(0deg, rgba(240,42,166,1) 0%, rgba(255,111,72,1) 100%);
+}
+
+@mixin gradientB {
+    background: #f02aa6;
+    background: linear-gradient(0deg, rgba(240,42,166,1) 0%, rgba(72,81,255,1) 100%);
+}
+
+@mixin isHover {
+    opacity: 0.5;
+}
+
+//text
+@mixin headingXL {
+    font-weight: $extraBold;
+    font-size: 56px;
+    line-height: 70px;
+    color: map-get($map: $palette, $key: 'b');
+}
+
+@mixin headingL {
+    font-weight: $extraBold;
+    font-size: 40px;
+    line-height: 51px;
+    color: map-get($map: $palette, $key: 'b');
+}
+
+@mixin headingM {
+    font-weight: $extraBold;
+    font-size: 32px;
+    line-height: 40px;
+    color: map-get($map: $palette, $key: 'b');
+}
+
+@mixin headingS {
+    font-weight: $extraBold;
+    font-size: 24px;
+    line-height: 28px;
+    color: map-get($map: $palette, $key: 'b');
+}
+
+@mixin bodyM {
+    font-weight: $medium;
+    font-size: 18px;
+    line-height: 28px;
+    color: map-get($map: $palette, $key: 'c');
+}
+
+@mixin bodyS {
+    font-weight: $bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: map-get($map: $palette, $key: 'c');
+}
+
+//buttons
+
+@mixin btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

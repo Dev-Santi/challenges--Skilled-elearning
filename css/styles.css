@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  /* border: 1px solid black; */
+}
+
+.container {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+
+.getStartedBtn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #83869a;
+  border-radius: 50px;
+  border: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+.navbar .getStartedBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #13183f;
+  color: #ffffff;
+  width: 140px;
+  height: 48px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+}
+.header .introduction {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 46px;
+}
+.header .introduction h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 51px;
+  color: #13183f;
+  margin-bottom: 26px;
+}
+.header .introduction p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #83869a;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.header .introduction .getStartedBtn {
+  background: #f02aa6;
+  background: linear-gradient(0deg, rgb(240, 42, 166) 0%, rgb(255, 111, 72) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 167px;
+  height: 56px;
+}
+.header .imgHero img {
+  width: 100%;
+}
+
+.mainContent .firstCard {
+  background: #f02aa6;
+  background: linear-gradient(0deg, rgb(240, 42, 166) 0%, rgb(255, 111, 72) 100%);
+  border-radius: 10px;
+  margin: 0 16px;
+  padding: 24px 29px 32px 28px;
+  height: 120px;
+}
+.mainContent .firstCard h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+}
+.mainContent .card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 0 28px;
+  border-radius: 10px;
+  margin: 60px 16px;
+  height: 283px;
+}
+.mainContent .card .iconBox {
+  display: flex;
+}
+.mainContent .card .iconBox svg {
+  position: relative;
+  top: -50%;
+}
+.mainContent .card h3 {
+  color: #13183f;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+  padding-bottom: 16px;
+}
+.mainContent .card p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #83869a;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+.mainContent .card .getStartedBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #83869a;
+  font-size: 18px;
+  color: #f74780;
+  width: 104px;
+  height: 28px;
+}/*# sourceMappingURL=styles.css.map */
