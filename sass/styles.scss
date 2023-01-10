@@ -17,7 +17,7 @@
     @include background;
     min-height: 100vh;
     min-width: 320px;
-    overflow: hidden
+    overflow: hidden;
 }
 
 //buttons
@@ -25,6 +25,16 @@
 .getStartedBtn {
     @include bodyS;
     border-radius: 50px;
+
+    &.anim {
+        animation: hinge;
+        animation-duration: 1.1s;
+    }
+
+    &.animOut {
+        animation: bounceInDown;
+        animation-duration: 1.5s;
+    }
 }
 
 //nav
@@ -39,7 +49,7 @@
     .getStartedBtn {
         @include btn;
 
-        z-index: 999;
+        z-index: 998;
         background-color: map-get($map: $palette, $key: 'b');
         color: map-get($map: $palette, $key: 'f');
         width: 140px;
@@ -78,6 +88,7 @@
         h1 {
             @include headingL;
             margin-bottom: 26px;
+            max-width: 460px;
         }
 
         p {
@@ -216,6 +227,16 @@
 @media(min-width: 768px) {
     .navbar {
         padding: 29px 40px;
+
+        .logo {
+            height: auto;
+        }
+
+        div {
+            flex-direction: row-reverse;
+            column-gap: 20px;
+            height: auto;
+        }
     }
 
     .header {
@@ -293,6 +314,10 @@
             margin-top: 50px;
             margin-left: 0;
             margin-right: 0;
+
+            h2 {
+                max-width: 300px;
+            }
         }
 
         .card {

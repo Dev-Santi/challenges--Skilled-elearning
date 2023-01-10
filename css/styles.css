@@ -20,6 +20,18 @@
   color: #83869a;
   border-radius: 50px;
 }
+.getStartedBtn.anim {
+  -webkit-animation: hinge;
+          animation: hinge;
+  -webkit-animation-duration: 1.1s;
+          animation-duration: 1.1s;
+}
+.getStartedBtn.animOut {
+  -webkit-animation: bounceInDown;
+          animation: bounceInDown;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
 
 .navbar {
   display: flex;
@@ -33,7 +45,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 999;
+  z-index: 998;
   background-color: #13183f;
   color: #ffffff;
   width: 140px;
@@ -69,6 +81,7 @@
   line-height: 51px;
   color: #13183f;
   margin-bottom: 26px;
+  max-width: 460px;
 }
 .header .introduction p {
   font-weight: 500;
@@ -194,6 +207,15 @@
   .navbar {
     padding: 29px 40px;
   }
+  .navbar .logo {
+    height: auto;
+  }
+  .navbar div {
+    flex-direction: row-reverse;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    height: auto;
+  }
   .header {
     flex-direction: row;
     justify-content: space-between;
@@ -250,6 +272,9 @@
     margin-top: 50px;
     margin-left: 0;
     margin-right: 0;
+  }
+  .mainContent .introductionCard h2 {
+    max-width: 300px;
   }
   .mainContent .card {
     margin-left: 0;
