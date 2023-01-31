@@ -1,4 +1,4 @@
-//on click buttons animation
+//on click btn animation
 
 let buttonsCollection = document.getElementsByClassName('getStartedBtn');
 let buttons = [];
