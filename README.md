@@ -6,7 +6,7 @@
 
 It is a challenge proyect supplied by <a href="https://www.frontendmentor.io/profile/SantiNakc">Frontend Mentor</a>
 
-## What did I do?
+## How i made it
 
 - I used Sass to style this proyect
 - A little bit of grid
