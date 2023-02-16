@@ -8,7 +8,7 @@ It is a challenge proyect supplied by <a href="https://www.frontendmentor.io/pro
 
 ## What did I do?
 
-- I used Sass to make this proyect
+- I used Sass to style this proyect
 - A little bit of grid
 - A little bit of transform to put the header img on place
 - I made it responsive
