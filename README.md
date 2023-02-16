@@ -1,4 +1,4 @@
-# Welcome to Skilled E-Learning
+# Welcome to Skilled E-Learning!
 
 ![Screenshot of the page](./assets/screen.png)
 
