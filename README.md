@@ -10,7 +10,7 @@ It is a challenge proyect supplied by <a href="https://www.frontendmentor.io/pro
 
 - I used Sass to style this proyect
 - A little bit of grid
-- A little bit of transform to put the header img on place
+- A little bit of transform to put the header's img on place
 - I made it responsive
 
 It was an easy layout to practice some grid and flex.
